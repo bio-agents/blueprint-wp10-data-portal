@@ -1,0 +1,40 @@
+@chartset "utf-8";
+
+.blueprint-logo {
+	height: 1.6em;
+	width: auto !important;
+	margin: 0px !important;
+}
+
+.blueprint-link {
+	line-height: inherit !important;
+	font-weight: normal;
+	font-size: inherit;
+	margin-right: 0.5em !important;
+	display: inherit;
+}
+
+.footer .logo {
+	height: 50px;
+}
+
+.div-image {
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position:center;
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+}
+
+div.bibref {
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+
+div.bibref a {
+	text-decoration: none;
+}
+div.bibref a:hover {
+	text-decoration: underline;
+}

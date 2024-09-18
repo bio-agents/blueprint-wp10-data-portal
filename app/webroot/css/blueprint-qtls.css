@@ -1,0 +1,77 @@
+@chartset "utf-8";
+
+.paginate.prev , .paginate.first {
+	padding-right: 0.5em;
+}
+
+.paginate.next , .paginate.last {
+	padding-left: 0.5em;
+}
+
+.paginate.first , .paginate.last {
+	letter-spacing: -0.25em;
+}
+
+.paginate.first.hidden , .paginate.prev.hidden , .paginate.next.hidden , .paginate.last.hidden {
+	display: none;
+}
+
+th a {
+	font-weight: normal;
+	color: #458AC6;
+}
+
+th a.asc , th a.desc {
+	font-weight: bold;
+}
+
+th a.asc:after {
+	content: ' ⇣';
+}
+
+th a.desc:after {
+	content: ' ⇡';
+}
+
+.plus-info {
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-ms-border-radius: 10px;
+	background-color: #458AC6;
+	color: white;
+	padding-left: 5px;
+	padding-right: 5px;
+	cursor: pointer;
+}
+
+.noselect {
+	user-select: none;           /* Non-prefixed version, currently
+					not supported by any browser */
+	-webkit-touch-callout: none; /* iOS Safari */
+	-webkit-user-select: none;   /* Chrome/Safari/Opera */
+	-khtml-user-select: none;    /* Konqueror */
+	-moz-user-select: none;      /* Firefox */
+	-ms-user-select: none;       /* Internet Explorer/Edge */
+}
+
+label.normal-style {
+	font-weight: normal !important;
+	font-style: normal !important;
+}
+
+span.small-pos {
+	font-size: 0.5em;
+}
+
+.item.nowrap , a.nowrap {
+	white-space: nowrap;
+}
+
+.itemlogo {
+	height: 58px;
+}
+
+input[type='number'] {
+    -moz-appearance:textfield;
+}
